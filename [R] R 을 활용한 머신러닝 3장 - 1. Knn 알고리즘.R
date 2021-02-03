@@ -95,7 +95,7 @@ fruits <- data.frame(
 )
 View(fruits)
 
-토마토 = c(6,4)
+토마토 = c(4,4)
 temp <- c()  # 거리를 담을 변수 
 for  ( i  in  1:6 ) {
   temp <- append( temp, distance( c( fruits$단맛[i], fruits$아삭한맛[i]), 토마토 ) )

@@ -107,7 +107,7 @@ View(fruits)
 
 문제181. 위에서 만든 fruits 의 파생변수인 dist 를 이용해서 거리에 대한 순위 파생변수를 추가하시오!
 library(dplyr)
-fruit$rnk <- dense_rank(fruits$dist)
+fruits$rnk <- dense_rank(fruits$dist)
 fruits
 
 

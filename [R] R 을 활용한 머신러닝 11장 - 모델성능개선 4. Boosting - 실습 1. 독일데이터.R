@@ -10,7 +10,7 @@ summary( credit$amount)
 #3. 데이터가 명목형 데이터인지 확인해본다.
 str(credit)
 
-#4. 데이터를 shuffle 시킨다.
+#4. 데이터를 shuffle 시킨다
 set.seed(31)
 credit_shuffle <- credit[ sample( nrow(credit) ),  ]
 credit_shuffle

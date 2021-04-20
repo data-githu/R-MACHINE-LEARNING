@@ -7,7 +7,7 @@ str(credit)
 prop.table(table(credit$default)) # 라벨 컬럼 : default ->  yes : 대출금 상환 안함 ,no  : 대출금 상환
 summary( credit$amount)
 
-#3. 데이터가 명목형 데이터인지 확인해본다.
+#3. 데이터가 명목형 데이터인지 확인해본다
 str(credit)
 
 #4. 데이터를 shuffle 시킨다

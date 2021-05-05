@@ -3,7 +3,7 @@
 credit <- read.csv("credit.csv", stringsAsFactor=TRUE)
 str(credit) 
 
-#2. 데이터에 각 컬럼들을 이해한다. 
+#2. 데이터에 각 컬럼들을 이해한다
 prop.table(table(credit$default)) # 라벨 컬럼 : default ->  yes : 대출금 상환 안함 ,no  : 대출금 상환
 summary( credit$amount)
 
